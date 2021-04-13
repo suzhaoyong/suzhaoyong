@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Atmi</title>
+    <description>关于程序与设计、黑客与画家 | 苏赵勇，Web &amp; Mobile Lover，Software Engineer，UX Designer。</description>
+    <link>https://www.youatmi.com/</link>
+    <atom:link href="https://www.youatmi.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 13 Apr 2021 23:37:29 +0800</pubDate>
+    <lastBuildDate>Tue, 13 Apr 2021 23:37:29 +0800</lastBuildDate>
+    <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Helloworld</title>
+        <description>&lt;h2 id=&quot;helloworld&quot;&gt;HelloWorld&lt;/h2&gt;
+</description>
+        <pubDate>Sat, 10 Apr 2021 00:00:00 +0800</pubDate>
+        <link>https://www.youatmi.com/2021/04/10/HelloWorld/</link>
+        <guid isPermaLink="true">https://www.youatmi.com/2021/04/10/HelloWorld/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
