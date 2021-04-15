@@ -5,17 +5,27 @@
     <description>关于程序与设计、黑客与画家 | 苏赵勇，Web &amp; Mobile Lover，Software Engineer，UX Designer。</description>
     <link>https://www.youatmi.com/</link>
     <atom:link href="https://www.youatmi.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 13 Apr 2021 23:44:30 +0800</pubDate>
-    <lastBuildDate>Tue, 13 Apr 2021 23:44:30 +0800</lastBuildDate>
+    <pubDate>Thu, 15 Apr 2021 14:37:41 +0800</pubDate>
+    <lastBuildDate>Thu, 15 Apr 2021 14:37:41 +0800</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
-        <title>Helloworld</title>
-        <description>&lt;h2 id=&quot;helloworld&quot;&gt;HelloWorld&lt;/h2&gt;
+        <title>Hello 2021</title>
+        <description>&lt;p&gt;今天是 2021 年的第 104 天， AtSu 的 Blog 开通了。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#build&quot;&gt;搭建此 Blog，借助互联网资源所得&lt;/a&gt;&lt;/p&gt;
+
+&lt;p id=&quot;build&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;正文&quot;&gt;正文&lt;/h2&gt;
+&lt;p&gt;这是我的第一篇博客&lt;/p&gt;
 </description>
-        <pubDate>Sat, 10 Apr 2021 00:00:00 +0800</pubDate>
-        <link>https://www.youatmi.com/2021/04/10/HelloWorld/</link>
-        <guid isPermaLink="true">https://www.youatmi.com/2021/04/10/HelloWorld/</guid>
+        <pubDate>Mon, 05 Apr 2021 00:00:00 +0800</pubDate>
+        <link>https://www.youatmi.com/2021/04/05/Hello-2021/</link>
+        <guid isPermaLink="true">https://www.youatmi.com/2021/04/05/Hello-2021/</guid>
+        
+        <category>生活</category>
+        
+        <category>Meta</category>
         
         
       </item>
