@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Atmi</title>
+    <description>关于程序与设计、黑客与画家 | 苏赵勇，Web &amp; Mobile Lover，Software Engineer，UX Designer。</description>
+    <link>https://blog.youatmi.com/</link>
+    <atom:link href="https://blog.youatmi.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Fri, 16 Apr 2021 15:52:44 +0800</pubDate>
+    <lastBuildDate>Fri, 16 Apr 2021 15:52:44 +0800</lastBuildDate>
+    <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Hello 2021</title>
+        <description>&lt;p&gt;今天是 2021 年的第 104 天， AtSu 的 Blog 开通了。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#build&quot;&gt;搭建此 Blog，借助互联网资源所得&lt;/a&gt;&lt;/p&gt;
+
+&lt;p id=&quot;build&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;正文&quot;&gt;正文&lt;/h2&gt;
+&lt;p&gt;今天弄一个小小的博客，可以记录生活，心情，技术，兴趣或爱好等等，也算是时间留下的痕迹。&lt;/p&gt;
+
+&lt;p&gt;这是我的第一篇博客,下面说说我搭建博客的历程和心得体会。&lt;/p&gt;
+
+&lt;p&gt;互联网上有许多搭建博客的教程，我也是借鉴其他人的，现在我也把如何一步步做的展示出来。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/&quot;&gt;Github&lt;/a&gt; + &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; + &lt;a href=&quot;https://github.com/Huxpro/huxpro.github.io&quot;&gt;Huxpro 模版&lt;/a&gt; 快速实现自己的博客。&lt;/p&gt;
+
+&lt;p&gt;使用到 Github 主要是免费的域名和空间，也方便别人访问，可已不用关心服务器&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; 和域名&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;。当然你可以自己去折腾，在自己的服务器和域名下部署。&lt;/p&gt;
+
+&lt;p&gt;再看看 &lt;a href=&quot;https://jekyllrb.com/docs/installation/&quot;&gt;Jekyll 安装教程&lt;/a&gt;，值得注意的是它所要求的&lt;strong&gt;环境&lt;/strong&gt;。
+安装好环境之后，在命令行中输入 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll -v&lt;/code&gt; 一方面查看版本号，另一方面检查是否安装成功。&lt;/p&gt;
+
+&lt;p&gt;接下来克隆博客模版，我使用的是 &lt;a href=&quot;https://github.com/Huxpro/huxpro.github.io&quot;&gt;Huxpro 模版&lt;/a&gt;，当然还有&lt;a href=&quot;http://jekyllthemes.org/&quot;&gt;其他可选模版&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;然后就是写博客了，会使用 &lt;strong&gt;Markdown&lt;/strong&gt; 最好，会带给你优雅的写作体验。&lt;/p&gt;
+&lt;h3 id=&quot;打包生成静态文件&quot;&gt;打包生成静态文件&lt;/h3&gt;
+&lt;p&gt;假设你已经写好博客了，可以执行这个命令 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle exec jekyll build&lt;/code&gt; 来生成静态文件夹。我这个项目 &lt;a href=&quot;https://github.com/suzhaoyong/suzhaoyong.github.io&quot;&gt;suzhaoyong.github.io&lt;/a&gt; 静态文件生成在 _site 文件夹下。
+然后把 _site 下的文件复制到其他空白的文件夹下，再推送仓库中&lt;/p&gt;
+&lt;h3 id=&quot;推送到仓库中&quot;&gt;推送到仓库中&lt;/h3&gt;
+&lt;p&gt;在 Github 中创建一个 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;username.github.io&lt;/code&gt; 的 repository，其中 username 是你 Github 的用户名，例如我的是 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;suzhaoyong.github.io&lt;/code&gt;。 接下来在命令行工具如 &lt;strong&gt;git-bash&lt;/strong&gt; 中进入上一步的文件目录下使用 &lt;strong&gt;Git&lt;/strong&gt; 命令推送到仓库中。&lt;/p&gt;
+&lt;h3 id=&quot;设置-github-page&quot;&gt;设置 Github Page&lt;/h3&gt;
+&lt;p&gt;接下来就是设置访问域名了，进入你的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;username.github.io&lt;/code&gt; 仓库中，在 Setting 找到 GitHub Pages 选项。点击链接进入看到 Source 选项，选择 &lt;strong&gt;main&lt;/strong&gt; 或其他 branch，再选择目录，保存一下就可以在浏览器中输入 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;http://username.github.io&lt;/code&gt; 访问了，看到自己的博客还是开心的。&lt;/p&gt;
+
+&lt;h2 id=&quot;后记&quot;&gt;后记&lt;/h2&gt;
+&lt;p&gt;接下来需要做的&lt;/p&gt;
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;来熟悉 Markdown 的语法&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;使用七牛云对象存储图片&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;jenkins 发布文章&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;自定义域名&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E6%9C%8D%E5%8A%A1%E5%99%A8&quot;&gt;服务器&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E5%9F%9F%E5%90%8D&quot;&gt;域名&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Mon, 05 Apr 2021 00:00:00 +0800</pubDate>
+        <link>https://blog.youatmi.com/2021/04/05/Hello-2021/</link>
+        <guid isPermaLink="true">https://blog.youatmi.com/2021/04/05/Hello-2021/</guid>
+        
+        <category>生活</category>
+        
+        <category>Meta</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
