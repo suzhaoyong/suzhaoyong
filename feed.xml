@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Atmi</title>
+    <description>关于程序与设计、黑客与画家 | 苏赵勇，Web &amp; Mobile Lover，Software Engineer，UX Designer。</description>
+    <link>https://blog.youatmi.com/</link>
+    <atom:link href="https://blog.youatmi.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 18 Apr 2021 14:31:36 +0800</pubDate>
+    <lastBuildDate>Sun, 18 Apr 2021 14:31:36 +0800</lastBuildDate>
+    <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>日常技术和生活周刊（第 1 期）：生命在于折腾</title>
+        <description>&lt;p&gt;今天是 2021 的第 109 天，也是「日常技术和生活周刊」第 1 期。&lt;/p&gt;
+
+&lt;h2 id=&quot;正文&quot;&gt;正文&lt;/h2&gt;
+&lt;h3 id=&quot;技术类&quot;&gt;技术类&lt;/h3&gt;
+&lt;h6 id=&quot;搭建个人博客&quot;&gt;搭建个人博客&lt;/h6&gt;
+&lt;p&gt;&lt;a href=&quot;/2021/04/15/Hello-2021&quot;&gt;搭建个人博客&lt;/a&gt;：Github + Jekyll + Huxpro 模版快速搭建博客&lt;/p&gt;
+&lt;h5 id=&quot;注册七牛云存储图片等资源&quot;&gt;注册七牛云存储图片等资源&lt;/h5&gt;
+&lt;p&gt;&lt;a href=&quot;https://portal.qiniu.com/&quot;&gt;七牛云&lt;/a&gt;对个人用户开发者可以免费使用 10G/月的存储空间。&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;注册七牛云账号&lt;/li&gt;
+  &lt;li&gt;创建存储空间&lt;/li&gt;
+  &lt;li&gt;上传图片&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h6 id=&quot;item2--oh-my-zsh-打造舒适终端体验&quot;&gt;iTem2 + Oh My Zsh 打造舒适终端体验&lt;/h6&gt;
+&lt;p&gt;下载 &lt;a href=&quot;https://iterm2.com/&quot;&gt;iTeam2&lt;/a&gt; 然后参考 &lt;a href=&quot;https://github.com/ohmyzsh/ohmyzsh#manual-installation&quot;&gt;ohmyzsh 安装手册&lt;/a&gt;快速打造，有许多内置样式和插件，可以自行配置适合自己的。&lt;/p&gt;
+&lt;h6 id=&quot;brew-安装&quot;&gt;brew 安装&lt;/h6&gt;
+&lt;p&gt;&lt;a href=&quot;https://brew.sh/index_zh-cn&quot;&gt;brew&lt;/a&gt; 是管理 macOS（或 Linux）缺失的软件包的管理器&lt;br /&gt;
+若是因为特殊原因不能安装的可以切换镜像源，例如&lt;/p&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;/bin/bash &lt;span class=&quot;nt&quot;&gt;-c&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;$(&lt;/span&gt;curl &lt;span class=&quot;nt&quot;&gt;-fsSL&lt;/span&gt; https://cdn.jsdelivr.net/gh/ineo6/homebrew-install/install.sh&lt;span class=&quot;si&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;如若遇到其他问题可以参考&lt;a href=&quot;https://zhuanlan.zhihu.com/p/90508170&quot;&gt;mac下镜像飞速安装Homebrew教程&lt;/a&gt;&lt;/p&gt;
+&lt;h5 id=&quot;jenkins-安装&quot;&gt;jenkins 安装&lt;/h5&gt;
+&lt;p&gt;我电脑是 macOS 参考了 &lt;a href=&quot;https://www.jenkins.io/download/lts/macos/&quot;&gt;Homebrew Installer for Jenkins LTS&lt;/a&gt; 文档安装 jenkins。其中 LTS(Long Term Support) 是长期维护的意思，你也可选择其他版本，根据个人情况。&lt;/p&gt;
+&lt;div class=&quot;language-shell highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;brew &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;jenkins-lts
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;你要是其他系统，可查看&lt;a href=&quot;https://www.jenkins.io/download/&quot;&gt;其他系统版本&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;生活类&quot;&gt;生活类&lt;/h3&gt;
+&lt;h6 id=&quot;重置系统安装-brave-浏览器&quot;&gt;重置系统，安装 brave 浏览器&lt;/h6&gt;
+&lt;p&gt;重新安装笔记本电脑系统，使用时间机器做了备份，再安装 &lt;strong&gt;brave 浏览器&lt;/strong&gt; 一方面和 Chrome 浏览器挺接近的但还是有些区别，另一方面个人在隐私方面我更相信它，而且可以屏蔽广告特别舒服。&lt;br /&gt;
+开通了 brave wallet 了解数字货币（如：ETH 等）。&lt;br /&gt;&lt;/p&gt;
+&lt;h3 id=&quot;工具类推荐&quot;&gt;工具类推荐&lt;/h3&gt;
+&lt;h5 id=&quot;bitwarden&quot;&gt;bitwarden&lt;/h5&gt;
+&lt;p&gt;&lt;a href=&quot;https://bitwarden.com&quot;&gt;bitwarden&lt;/a&gt; 是一款&lt;strong&gt;跨平台&lt;/strong&gt;密码管理工具，对&lt;strong&gt;个人&lt;/strong&gt;使用也是&lt;strong&gt;免费&lt;/strong&gt;，移动端，Web端，浏览器中及PC端都可以使用。&lt;/p&gt;
+
+</description>
+        <pubDate>Sun, 18 Apr 2021 00:00:00 +0800</pubDate>
+        <link>https://blog.youatmi.com/2021/04/18/Weekly-1/</link>
+        <guid isPermaLink="true">https://blog.youatmi.com/2021/04/18/Weekly-1/</guid>
+        
+        <category>生活</category>
+        
+        <category>周刊</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Hello 2021</title>
+        <description>&lt;p&gt;今天是 2021 年的第 106 天， AtSu 的 Blog 开通了。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;#build&quot;&gt;搭建此 Blog，借助互联网资源所得&lt;/a&gt;&lt;/p&gt;
+
+&lt;p id=&quot;build&quot;&gt;&lt;/p&gt;
+&lt;h2 id=&quot;正文&quot;&gt;正文&lt;/h2&gt;
+&lt;p&gt;今天弄一个小小的博客，可以记录生活，心情，技术，兴趣或爱好等等，也算是时间留下的痕迹。&lt;/p&gt;
+
+&lt;p&gt;这是我的第一篇博客,下面说说我搭建博客的历程和心得体会。&lt;/p&gt;
+
+&lt;p&gt;互联网上有许多搭建博客的教程，我也是借鉴其他人的，现在我也把如何一步步做的展示出来。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/&quot;&gt;Github&lt;/a&gt; + &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; + &lt;a href=&quot;https://github.com/Huxpro/huxpro.github.io&quot;&gt;Huxpro 模版&lt;/a&gt; 快速实现自己的博客。&lt;/p&gt;
+
+&lt;p&gt;使用到 Github 主要是免费的域名和空间，也方便别人访问，可已不用关心服务器&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; 和域名&lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot; rel=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;。当然你可以自己去折腾，在自己的服务器和域名下部署。&lt;/p&gt;
+
+&lt;p&gt;再看看 &lt;a href=&quot;https://jekyllrb.com/docs/installation/&quot;&gt;Jekyll 安装教程&lt;/a&gt;，值得注意的是它所要求的&lt;strong&gt;环境&lt;/strong&gt;。
+安装好环境之后，在命令行中输入 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll -v&lt;/code&gt; 一方面查看版本号，另一方面检查是否安装成功。&lt;/p&gt;
+
+&lt;p&gt;接下来克隆博客模版，我使用的是 &lt;a href=&quot;https://github.com/Huxpro/huxpro.github.io&quot;&gt;Huxpro 模版&lt;/a&gt;，当然还有&lt;a href=&quot;http://jekyllthemes.org/&quot;&gt;其他可选模版&lt;/a&gt;。&lt;/p&gt;
+
+&lt;p&gt;然后就是写博客了，会使用 &lt;strong&gt;Markdown&lt;/strong&gt; 最好，会带给你优雅的写作体验。&lt;/p&gt;
+&lt;h3 id=&quot;打包生成静态文件&quot;&gt;打包生成静态文件&lt;/h3&gt;
+&lt;p&gt;假设你已经写好博客了，可以执行这个命令 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;bundle exec jekyll build&lt;/code&gt; 来生成静态文件夹。我这个项目 &lt;a href=&quot;https://github.com/suzhaoyong/suzhaoyong.github.io&quot;&gt;suzhaoyong.github.io&lt;/a&gt; 静态文件生成在 _site 文件夹下。
+然后把 _site 下的文件复制到其他空白的文件夹下，再推送仓库中&lt;/p&gt;
+&lt;h3 id=&quot;推送到仓库中&quot;&gt;推送到仓库中&lt;/h3&gt;
+&lt;p&gt;在 Github 中创建一个 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;username.github.io&lt;/code&gt; 的 repository，其中 username 是你 Github 的用户名，例如我的是 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;suzhaoyong.github.io&lt;/code&gt;。 接下来在命令行工具如 &lt;strong&gt;git-bash&lt;/strong&gt; 中进入上一步的文件目录下使用 &lt;strong&gt;Git&lt;/strong&gt; 命令推送到仓库中。&lt;/p&gt;
+&lt;h3 id=&quot;设置-github-page&quot;&gt;设置 Github Page&lt;/h3&gt;
+&lt;p&gt;接下来就是设置访问域名了，进入你的 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;username.github.io&lt;/code&gt; 仓库中，在 Setting 找到 GitHub Pages 选项。点击链接进入看到 Source 选项，选择 &lt;strong&gt;main&lt;/strong&gt; 或其他 branch，再选择目录，保存一下就可以在浏览器中输入 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;http://username.github.io&lt;/code&gt; 访问了，看到自己的博客还是开心的。&lt;/p&gt;
+
+&lt;h2 id=&quot;后记&quot;&gt;后记&lt;/h2&gt;
+&lt;p&gt;接下来需要做的&lt;/p&gt;
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;来熟悉 Markdown 的语法&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;使用七牛云对象存储图片&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;jenkins 发布文章&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;自定义域名&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E6%9C%8D%E5%8A%A1%E5%99%A8&quot;&gt;服务器&lt;/a&gt; &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;&lt;a href=&quot;https://zh.wikipedia.org/wiki/%E5%9F%9F%E5%90%8D&quot;&gt;域名&lt;/a&gt; &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        <pubDate>Thu, 15 Apr 2021 00:00:00 +0800</pubDate>
+        <link>https://blog.youatmi.com/2021/04/15/Hello-2021/</link>
+        <guid isPermaLink="true">https://blog.youatmi.com/2021/04/15/Hello-2021/</guid>
+        
+        <category>生活</category>
+        
+        <category>Meta</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
